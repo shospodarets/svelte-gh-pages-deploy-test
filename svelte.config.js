@@ -8,10 +8,6 @@ const config = {
 		// Override http methods in the Todo forms
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
-		},
-
-		paths: {
-			base: '/svelte-gh-pages-deploy-test'
 		}
 	}
 };
